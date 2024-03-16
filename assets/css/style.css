@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+
+/* Nav bar */
+.top-navbar-container {
+    padding: 20px;
+}
+
+.profile-notifiction-continer {
+    gap: 20px;
+}
+
+.logo {
+    height: 55px;
+}
+
+.profile-contianer>a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.notification-container>i {
+    font-size: 26px;
+    color: black;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 500px;
+    background-image: url("/assets/images/hero-background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+
+.rectangle-continer {
+    position: relative;
+    /* height: 500px; */
+}
+
+.hero-content {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 70%;
+}
+
+.hero-row,
+.rectangle-continer {
+    padding: 0;
+}
+
+.rectangle-img {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    height: 500px;
+}
+
+/* Plant Disease Detector Section */
+.plant-disease-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    /* height: 550px; */
+}
+
+.plant-disease-section-h3 {
+    color: #EC1B2E;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+}
+
+.plant-disease-section-h1 {
+    padding: 10px 0;
+    color: #222222;
+    font-weight: 600;
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+}
+
+.counters-containers>.counter-count {
+    color: #EC1B2E;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.counters-containers>span {
+    color: black;
+    font-size: 22px;
+}
+
+.image-upload-container {
+    width: 90%;
+    height: 100%;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(221, 221, 221);
+    padding: 40px;
+}
+
+.image-upload-area {
+    height: 90%;
+    border: 2px dashed rgb(201, 201, 201);
+    border-radius: 12px;
+}
+
+.image-upload-area>div>span {
+    display: block;
+    line-height: 0px;
+    text-align: center;
+}
+
+.upload-button {
+    text-align: center;
+}
+
+.upload-button>button,
+.dected-button>button {
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600;
+    background-color: #12B76A;
+    font-size: 16px;
+}
+
+.dected-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* <!-- ====How it works Section===== --> */
+
+.how-it-work-section {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    background-color: #222424;
+    /* height: 500px; */
+}
+
+.how-it-work-section>div>div {
+    text-align: center;
+}
+
+.how-it-work-section>div>div>p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.how-it-work-section>div>div>h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.icon-box-container {
+    padding-top: 50px;
+    gap: 120px;
+}
+
+.icon-box>h4 {
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+
+.icon-box>p {
+    padding-top: 0px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #a8a8a8;
+}
+
+/* About section */
+.about-us-section {
+    padding: 50px;
+    /* height: 500px; */
+}
+
+.two-image-div {
+    position: relative;
+}
+
+.s-image {
+    position: absolute;
+    bottom: 0px;
+    left: -10px;
+}
+
+.f-img {
+    width: 500px;
+}
+
+.s-img {
+    height: 200px;
+}
+
+.top {
+    padding-top: 8px;
+}
+
+.tik-mark {
+    padding-right: 4px;
+}
+
+/* Bottom Bar */
+.bottom-bar-section {
+    border-top: 1px solid rgb(235, 235, 235);
+}
+
+.bottom-bar-container {
+    padding: 20px 0 0 0;
+}
+
+.single-icon-boxs {
+    text-align: center;
+}
+
+.active {
+    color: #12B76A;
+}
+
+.yellow {
+    color: #FFDD64;
+}
+
+.white {
+    color: white;
+}
+
+/* planet deases section */
+.plant-disease-dectation-section{
+        padding:50pxx;
+}
