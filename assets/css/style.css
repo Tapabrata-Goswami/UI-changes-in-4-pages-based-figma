@@ -243,5 +243,18 @@
 
 /* planet deases section */
 .plant-disease-dectation-section{
-        padding:50pxx;
+        padding:50px;
+}
+
+.desease-images{
+    height: 400px;
+    border-radius: 12px;
+}
+
+.desase-details{
+    color:#222222;
+}
+
+.text-left{
+    text-align: left;
 }
